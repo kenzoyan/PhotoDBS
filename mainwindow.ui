@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1080</width>
+    <height>888</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+border-image:url(C:/Users/57070/Desktop/py file/PYQT5/eric6_pyqt5/photoDBS/photos/mainwindow1.jpg);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="maintitle">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>70</y>
+      <width>301</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文新魏</family>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+border：none;
+border-radius：5px;
+color:rgb(255, 255, 255);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>图片管理系统</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="welcome_words">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>200</y>
+      <width>261</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文新魏</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+border：none;
+border-radius：5px;
+color:rgb(255, 255, 255);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>WELCOME, kenzo</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>310</y>
+      <width>211</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="enterpic">
+       <property name="font">
+        <font>
+         <family>华文新魏</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+border-style: outset;
+border-width:2px;
+border-radius:10px;
+border-color: beige;
+background:rgb(204, 188, 255);
+color:rgb(255, 255, 255);
+min-width:10em;
+padding:6px;
+}
+QPushButton:pressed {
+background-color: rgb(224,0,0);
+border-style: inset;
+}</string>
+       </property>
+       <property name="text">
+        <string>照片管理</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="enterpeople">
+       <property name="font">
+        <font>
+         <family>华文新魏</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+border-style: outset;
+border-width:2px;
+border-radius:10px;
+border-color: beige;
+background:rgb(204, 188, 255);
+color:rgb(255, 255, 255);
+min-width:10em;
+padding:6px;
+}
+QPushButton:pressed {
+background-color: rgb(224,0,0);
+border-style: inset;
+}</string>
+       </property>
+       <property name="text">
+        <string>摄影师管理</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="enterdevices">
+       <property name="font">
+        <font>
+         <family>华文新魏</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+border-style: outset;
+border-width:2px;
+border-radius:10px;
+border-color: beige;
+background:rgb(204, 188, 255);
+color:rgb(255, 255, 255);
+min-width:10em;
+padding:6px;
+}
+QPushButton:pressed {
+background-color: rgb(224,0,0);
+border-style: inset;
+}</string>
+       </property>
+       <property name="text">
+        <string>设备管理</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="enterpicgroup">
+       <property name="font">
+        <font>
+         <family>华文新魏</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+border-style: outset;
+border-width:2px;
+border-radius:10px;
+border-color: beige;
+background:rgb(204, 188, 255);
+color:rgb(255, 255, 255);
+min-width:10em;
+padding:6px;
+}
+QPushButton:pressed {
+background-color: rgb(224,0,0);
+border-style: inset;
+}</string>
+       </property>
+       <property name="text">
+        <string>图片分组</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="enterpeogroup">
+       <property name="font">
+        <font>
+         <family>华文新魏</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+border-style: outset;
+border-width:2px;
+border-radius:10px;
+border-color: beige;
+background:rgb(204, 188, 255);
+color:rgb(255, 255, 255);
+min-width:10em;
+padding:6px;
+}
+QPushButton:pressed {
+background-color: rgb(224,0,0);
+border-style: inset;
+}</string>
+       </property>
+       <property name="text">
+        <string>摄影师分组</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <zorder>layoutWidget</zorder>
+   <zorder>welcome_words</zorder>
+   <zorder>maintitle</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
